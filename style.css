@@ -22,9 +22,14 @@ body {
 
 nav,
 .nav-links {
-  background-color: #a37a91;
-  color: #e3dcd3;
-  display: flex;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: pink;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
 nav {
@@ -44,25 +49,14 @@ a {
   text-decoration: none;
 }
 
-/* Profile Section */
-
-#profile-page {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  height: 80vh;
-}
-
-.dp_container {
-  display: flex;
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-}
+/* Side Profile Section */
 
 .dp_container img {
   border-radius: 50%;
 }
+
+/* Profile Section */
+
 
 .profile-text {
   margin: auto 0; 
