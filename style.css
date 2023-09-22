@@ -7,6 +7,13 @@
   padding: 0;
 }
 
+body {
+  background-image: url('./assets/bg_image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,19 +22,24 @@ body {
   font-family: 'Mali', cursive;
 }
 
+
 /* Navigation Bar */
+
 
 .side-navbar {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-  width: 400px;
-  position: fixed;
+  height: 50%;
+  width: 300px;
+  position: center;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: #a37a91;
+  border: 2px solid #00A4BD;
+  padding: 10px;
+  box-shadow: 6px 4px #00A4BD;
 }
 
 .side-navbar img {
