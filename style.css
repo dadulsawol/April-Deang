@@ -1,14 +1,14 @@
 
 /* Whole HTML Document */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mali:ital,wght@0,700;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Mali', cursive;
+  font-family: 'VT323', monospace;
   background-image: url('./assets/bg_image.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,8 +73,9 @@ section {
   padding: 15px;
   padding-left: 50px;
   padding-right: 50px;
-  width: 50px;
-  text-decoration: none;
+  width: 90px;
+  font-size: 20px;
+  font-family: 'VT323', monospace;
   border: 2px;
   border-style: solid;
   border-radius: 25px;
@@ -108,14 +109,14 @@ section {
 .introduction {
   position: relative;
   color: #f4e1e1;
+  font-size: 50px;
   background-color: #3e5847;
   border: 2px solid #b5a7bf;
   box-shadow: 6px 4px #4a4c5c;
   margin: 200px;
   margin-bottom: 1%;
   padding: 50px;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 35px;
+  font-family: 'VT323', monospace;
   text-decoration: none;
   border-radius: 25px;
   left: 300px;
@@ -160,6 +161,23 @@ section {
 
 /*ABOUT ME*/
 
+.mytitle_about {
+  position: relative;
+  color: blue;
+  margin: 50px;
+  padding: 5%;
+  font-family: 'VT323', monospace;
+  font-size: 50px;
+  border-radius: 35%;
+  font-size: 80px;
+  left: 350px;
+  padding-top: 0px;
+  width: 800px;
+  height: 1%;
+  text-align: center;
+  bottom: 100px;
+}
+
 .my_whoishe {
   position: relative;
   color: #f4e1e1;
@@ -169,19 +187,43 @@ section {
   margin: 50px;
   margin-bottom: 1%;
   padding: 50px;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 20px;
+  font-family: 'VT323', monospace;
+  font-size: 29px;
   text-decoration: none;
   border-radius: 25px;
   left: 350px;
   width: 980px;
-  height: 570px;
+  height: 4o0px;
   bottom: 120px;
 }
+
+.cv {
+  padding-left: 50px;
+  padding-right: 50px;
+
+  transition: 1.5s;
+  }
 
 /* EXPERIENCE */
 
-.my_experience {
+.mytitle_experience {
+  position: relative;
+  color: blue;
+  margin: 50px;
+  padding: 5%;
+  font-family: 'VT323', monospace;
+  font-size: 25px;
+  border-radius: 35%;
+  font-size: 80px;
+  left: 350px;
+  padding-top: 0px;
+  width: 900px;
+  height: 1%;
+  text-align: center;
+  bottom: 100px;
+}
+
+.experience {
   position: relative;
   color: #f4e1e1;
   background-color: #3e5847;
@@ -190,18 +232,37 @@ section {
   margin: 50px;
   margin-bottom: 1%;
   padding: 50px;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 20px;
+  font-family: 'VT323', monospace;
+  font-size: 28px;
   text-decoration: none;
   border-radius: 25px;
   left: 350px;
   width: 980px;
-  height: 570px;
+  height: 4o0px;
   bottom: 120px;
 }
+
+
 /* PROJECTS */
 
-.my_projects {
+.mytitle_projects {
+  position: relative;
+  color: blue;
+  margin: 50px;
+  padding: 5%;
+  font-family: 'VT323', monospace;
+  font-size: 25px;
+  border-radius: 35%;
+  font-size: 80px;
+  left: 350px;
+  padding-top: 0px;
+  width: 800px;
+  height: 1%;
+  text-align: center;
+  bottom: 100px;
+}
+
+.projects {
   position: relative;
   color: #f4e1e1;
   background-color: #3e5847;
@@ -210,12 +271,12 @@ section {
   margin: 50px;
   margin-bottom: 1%;
   padding: 50px;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 20px;
+  font-family: 'VT323', monospace;
+  font-size: 28px;
   text-decoration: none;
   border-radius: 25px;
   left: 350px;
   width: 980px;
-  height: 570px;
+  height: 4o0px;
   bottom: 120px;
 }
