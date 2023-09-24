@@ -111,15 +111,15 @@ section {
   background-color: #3e5847;
   border: 2px solid #b5a7bf;
   box-shadow: 6px 4px #4a4c5c;
-  margin: 250px;
+  margin: 200px;
   margin-bottom: 1%;
   padding: 50px;
   font-family: 'Source Code Pro', monospace;
-  font-size: 40px;
+  font-size: 35px;
   text-decoration: none;
   border-radius: 25px;
-  left: 350px;
-  width: 550px;
+  left: 300px;
+  width: 780px;
   bottom: 120px;
 }
 
@@ -158,3 +158,64 @@ section {
   background: none;
 }
 
+/*ABOUT ME*/
+
+.my_whoishe {
+  position: relative;
+  color: #f4e1e1;
+  background-color: #3e5847;
+  border: 2px solid #b5a7bf;
+  box-shadow: 6px 4px #4a4c5c;
+  margin: 50px;
+  margin-bottom: 1%;
+  padding: 50px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  left: 350px;
+  width: 980px;
+  height: 570px;
+  bottom: 120px;
+}
+
+/* EXPERIENCE */
+
+.my_experience {
+  position: relative;
+  color: #f4e1e1;
+  background-color: #3e5847;
+  border: 2px solid #b5a7bf;
+  box-shadow: 6px 4px #4a4c5c;
+  margin: 50px;
+  margin-bottom: 1%;
+  padding: 50px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  left: 350px;
+  width: 980px;
+  height: 570px;
+  bottom: 120px;
+}
+/* PROJECTS */
+
+.my_projects {
+  position: relative;
+  color: #f4e1e1;
+  background-color: #3e5847;
+  border: 2px solid #b5a7bf;
+  box-shadow: 6px 4px #4a4c5c;
+  margin: 50px;
+  margin-bottom: 1%;
+  padding: 50px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  left: 350px;
+  width: 980px;
+  height: 570px;
+  bottom: 120px;
+}
