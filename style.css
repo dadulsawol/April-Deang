@@ -253,7 +253,7 @@ section {
 /* PROJECTS */
 
 .mytitle_projects h1 {
-  text-shadow: 3px 3px 5px black;
+  text-shadow: 3px 3px 5px black; 
 }
 
 .mytitle_projects {
@@ -301,14 +301,5 @@ section {
   padding: 15px;
   height: 120px;
   width: 130px;
+  border-radius: 100px;
 }
-
-
-
-
-
-
-
-
-
-
