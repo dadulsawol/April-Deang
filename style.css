@@ -5,15 +5,15 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'VT323', monospace;
 }
 
 body {
-  font-family: 'VT323', monospace;
   background-image: url('./assets/bg.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow-x: hidden;
+  overflow: hidden;
 } 
 
 html {
@@ -29,9 +29,9 @@ section {
 }
 
 /* Navigation Bar */
-
 #navs {
   align-items: center;
+
   width: 300px;
   height: 550px;
   position: center;
@@ -75,7 +75,6 @@ section {
   padding-right: 50px;
   width: 90px;
   font-size: 20px;
-  font-family: 'VT323', monospace;
   border: 2px;
   border-style: solid;
   border-radius: 25px;
@@ -102,6 +101,7 @@ section {
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
+
 }
 
 /* Intro text */
@@ -116,7 +116,6 @@ section {
   margin: 200px;
   margin-bottom: 1%;
   padding: 50px;
-  font-family: 'VT323', monospace;
   text-decoration: none;
   border-radius: 25px;
   left: 300px;
@@ -161,12 +160,15 @@ section {
 
 /*ABOUT ME*/
 
+.mytitle_about h1 {
+  text-shadow: 3px 3px 5px black;
+}
+
 .mytitle_about {
   position: relative;
   color: #da91eb;
   margin: 50px;
   padding: 5%;
-  font-family: 'VT323', monospace;
   border-radius: 35%;
   font-size: 80px;
   left: 350px;
@@ -177,6 +179,8 @@ section {
   bottom: 100px;
 }
 
+
+
 .my_whoishe {
   position: relative;
   color: #f4e1e1;
@@ -186,7 +190,6 @@ section {
   margin: 50px;
   margin-bottom: 1%;
   padding: 50px;
-  font-family: 'VT323', monospace;
   font-size: 29px;
   text-decoration: none;
   border-radius: 25px;
@@ -205,17 +208,20 @@ section {
 
 /* EXPERIENCE */
 
+.mytitle_experience h1 {
+  text-shadow: 3px 3px 5px black;
+}
+
 .mytitle_experience {
   position: relative;
-  color: #3e5847;
+  color: #da91eb; 
   margin: 50px;
   padding: 5%;
-  font-family: 'VT323', monospace;
   border-radius: 35%;
   font-size: 80px;
   left: 350px;
   padding-top: 0px;
-  width: 800px;
+  width: 1000px;
   height: 1%;
   text-align: center;
   bottom: 100px;
@@ -224,13 +230,12 @@ section {
 .experience {
   position: relative;
   color: #f4e1e1;
-  background-color: #3e5847;
+  background-color: #a2488c;
   border: 2px solid #b5a7bf;
   box-shadow: 6px 4px #4a4c5c;
   margin: 50px;
   margin-bottom: 1%;
   padding: 50px;
-  font-family: 'VT323', monospace;
   font-size: 29px;
   text-decoration: none;
   border-radius: 25px;
@@ -243,12 +248,16 @@ section {
 
 /* PROJECTS */
 
+.mytitle_projects h1 {
+  text-shadow: 3px 3px 5px black;
+}
+
 .mytitle_projects {
   position: relative;
-  color: #3e5847;
+  display: flex;
+  color: #da91eb;
   margin: 50px;
   padding: 5%;
-  font-family: 'VT323', monospace;
   font-size: 25px;
   border-radius: 35%;
   font-size: 80px;
@@ -260,21 +269,32 @@ section {
   bottom: 100px;
 }
 
-.projects {
+.project-container {
+  position: absolute;
+}
+
+.project {
   position: relative;
+  display: flex;
   color: #f4e1e1;
-  background-color: #3e5847;
+  background-color: #a2488c;
   border: 2px solid #b5a7bf;
   box-shadow: 6px 4px #4a4c5c;
-  margin: 50px;
   margin-bottom: 1%;
-  padding: 50px;
-  font-family: 'VT323', monospace;
+  padding: 10px;
   font-size: 28px;
   text-decoration: none;
   border-radius: 25px;
-  left: 350px;
+  left: 400px;
   width: 980px;
-  height: 4o0px;
+  height: 150px;
   bottom: 120px;
+} 
+
+#projects img {
+  position: relative;
+  display: flex;
+  padding: 10px; OK NA BA YON ??
+  height: 100px;
+  width: 100px;
 }
