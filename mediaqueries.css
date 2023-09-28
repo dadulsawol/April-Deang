@@ -1,6 +1,12 @@
+
+
 @media screen and (max-width: 1440px) {
   section {
     height: 160vh;
+  }
+
+  #hamburger-navs {
+    display: none;
   }
   
   #navs {
@@ -37,6 +43,7 @@
   #socials img{
     height:90px;
     width: 90px;
+    left: 140px;
   }
 
   #socials-container img{
@@ -51,10 +58,19 @@
     margin-bottom: 100px;
     left: 560px;
   }
+  
   .mytitle_about h1 {
     font-size: 250px;
     width: 1500px;
   }
+
+  .mytitle_about img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 1px;
+  }
+
   .my_whoishe{
     left: 650px;
     top: 120px;
@@ -77,11 +93,18 @@
     left: 560px;
   }
 
+  .mytitle_experience img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    bottom: 1px;
+  }
+
   .experience {
     left: 650px;
     top: 120px;
     width: 1440px;
-    height: 500px
+    height: 600px
   }
 
   #experience p {
@@ -94,60 +117,408 @@
     left: 560px;
   }
 
-.mytitle_projects h1 {
-  font-size: 195px;
-  display: flex;
-  width: 100%
+  .mytitle_projects h1 {
+    font-size: 210px;
+    left: 200px;
+    width: 1500px;
+  }
+
+  .project {
+    top: 40px;
+    left: 700px;
+    height: 300px;
+    width: 1500px;
+  }
+
+  .project p {
+    font-size: 40px;
+  }
+
+  #projects img {
+    width: 150px;
+    height: 150px;
+    left: 200px;
+    position:relative;
+  }
 }
 
-.mytitle_projects h1 img {
-  width: 50px;
-  height: 50px;
+@media screen and (max-width: 1024px) {
+  section {
+    height: 260vh;
+  }
+
+  #hamburger-navs {
+    display: none;
+  }
+  
+  #navs {
+    width: 560px;
+    height: 1200px;
+  }
+
+  #navs img {
+    height: 250px;
+    left: 100px;
+    position: relative;
+    width: 250px;
+  }
+
+  .nav-links button {
+    font-size: 50px;
+    width: 400px;
+    height: 90px;
+    margin: 20px;
+  }
+
+  .introduction {
+    left: 450px;
+    top: 250px;
+    height: 500px;
+    width: 1400px;
+    font-size: 90px;
+  }
+
+  #socials-container {
+    top: 350px;
+  }
+
+  #socials img{
+    height:90px;
+    width: 90px;
+    left: 140px;
+  }
+
+  #socials-container img{
+    height: 100px;
+    width: 100px;
+    left: 760px;
+    top: 650px;
+  }
+
+  .mytitle_about{
+    top: 1%;
+    margin-bottom: 100px;
+    left: 560px;
+  }
+  
+  .mytitle_about h1 {
+    font-size: 250px;
+    width: 1500px;
+  }
+
+  .mytitle_about img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 1px;
+  }
+
+  .my_whoishe {
+    left: 600px;
+    top: 120px;
+    width: 1440px;
+    height: 800px
+  }
+
+  .my_whoishe p{
+    font-size: 50px;
+  }
+
+  .my_whoishe button{
+    height: 50px;
+    font-size: 50px;
+  }
+
+  .my_whoishe button p{
+    font-size: 80px;
+  }
+
+  .mytitle_experience h1 {
+    font-size: 200px;
+    width: 1500px;
+  }
+
+  .mytitle_experience {
+    top: 1%;
+    margin-bottom: 100px;
+    left: 560px;
+  }
+
+  .mytitle_experience img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    bottom: 1px;
+  }
+
+  .experience {
+    left: 600px;
+    top: 120px;
+    width: 1440px;
+    height: 600px
+  }
+
+  #experience p {
+    font-size: 45px;
+  }
+
+  .mytitle_projects {
+    top: 1%;
+    margin-bottom: 100px;
+    left: 560px;
+  }
+
+  
+  .mytitle_projects h1 {
+    font-size: 150px;
+    width: 1600px;
+    left: 90px;
+  }
+
+  .project p {
+    font-size: 40px;
+  }
+
+  .project {
+    top: 40px;
+    left: 650px;
+    height: 300px;
+    width: 1500px;
+  }
+
+  #projects img {
+    width: 150px;
+    height: 150px;
+    left: 0px;
+    position:relative;
+  }
 }
 
-.project {
-  top: 40px;
-  left: 700px;
-  height: 300px;
-  width: 1500px;
-}
+@media screen and (max-width: 786px) {
+  section {
+    height: 290vh;
+  }
 
-.project p {
-  font-size: 40px;
-}
-
-#projects img {
-  width: 200px;
-  height: 200px;
-}
-}
-
-
-
-@media screen and (max-width: 768px) {
+  #menu {
+    z-index: 2;
+  }
 
   #navs {
     display: none;
-  }  
+  }
+  
+  #menu-bar {
+    width: 45px;
+    height: 40px;
+    left: 300px;
+    top: 200px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+  }
+  
+  .bar {
+    height: 5px;
+    width: 100%;
+    background-color: #DC052D;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  #bar1 {
+    transform: translateY(-4px);
+  }
+  
+  #bar3 {
+    transform: translateY(4px);
+  }
+  
+  .nav1 {
+    transition: 0.3s ease;
+    display: none;
+  }
+  
+  .nav1 ul {
+    padding: 0 22px;
+  }
+  
+  .nav1 li {
+    list-style: none;
+    padding: 12px 0;
+  }
+  
+  .nav1 li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .nav1 li a:hover {
+    font-weight: bold;
+  }
+  
+  .menu-bg, #menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  
+  .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #DC052D, #DC052D);
+    border-radius: 50%;
+    transition: 0.3s ease;
+  }
+  
+  .change {
+    display: block;
+  }
+  
+  .change .bar {
+    background-color: white;
+  }
+  
+  .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  
+  .change #bar2 {
+    opacity: 0;
+  }
+  
+  .change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+  }
+  
+  .change-bg {
+    width: 520px;
+    height: 460px;
+    transform: translate(-60%,-30%);
+  }
+
+  .introduction {
+    left: 0px;
+    top: 150px;
+    height: 500px;
+    width: 1900px;
+    font-size: 200px;
+  }
+
+  #socials-container {
+    top: 350px;
+  }
+
+  #socials img{
+    height:90px;
+    width: 90px;
+    left: 140px;
+  }
+
+  #socials-container img{
+    height: 100px;
+    width: 100px;
+    left: 760px;
+    top: 650px;
+  }
+
+  .mytitle_about{
+    top: 1%;
+    margin-bottom: 100px;
+    left: 560px;
+  }
   
   .mytitle_about h1 {
-    position: relative;
-    top: 100px;
-    text-shadow: 3px 3px 5px black;
+    font-size: 250px;
+    width: 1500px;
   }
 
-  .mytitle_about {
+  .mytitle_about img {
     position: relative;
-  }  
-
-  .about .my_whoishe {
-    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 1px;
   }
 
-  .cv {
-    padding-left: 50px;
-    padding-right: 50px;
-    border-style: dashed;
-    border-color: rgb(112, 38, 192);
+  .my_whoishe {
+    left: 600px;
+    top: 120px;
+    width: 1440px;
+    height: 800px
+  }
+
+  .my_whoishe p{
+    font-size: 50px;
+  }
+
+  .my_whoishe button{
+    height: 50px;
+    font-size: 50px;
+  }
+
+  .my_whoishe button p{
+    font-size: 80px;
+  }
+
+  .mytitle_experience h1 {
+    font-size: 200px;
+    width: 1500px;
+  }
+
+  .mytitle_experience {
+    top: 1%;
+    margin-bottom: 100px;
+    left: 560px;
+  }
+
+  .mytitle_experience img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    bottom: 1px;
+  }
+
+  .experience {
+    left: 600px;
+    top: 120px;
+    width: 1440px;
+    height: 600px
+  }
+
+  #experience p {
+    font-size: 45px;
+  }
+
+  .mytitle_projects {
+    top: 1%;
+    margin-bottom: 100px;
+    left: 560px;
+  }
+
+  
+  .mytitle_projects h1 {
+    font-size: 150px;
+    width: 1600px;
+    left: 90px;
+  }
+
+  .project p {
+    font-size: 40px;
+  }
+
+  .project {
+    top: 40px;
+    left: 650px;
+    height: 300px;
+    width: 1500px;
+  }
+
+  #projects img {
+    width: 150px;
+    height: 150px;
+    left: 0px;
+    position:relative;
   }
 }
