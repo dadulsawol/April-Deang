@@ -1,0 +1,153 @@
+@media screen and (max-width: 1440px) {
+  section {
+    height: 160vh;
+  }
+  
+  #navs {
+    width: 600px;
+    height: 1270px;
+  }
+
+  #navs img {
+    height: 250px;
+    left: 100px;
+    position: relative;
+    width: 250px;
+  }
+
+  .nav-links button {
+    font-size: 50px;
+    width: 400px;
+    height: 90px;
+    margin: 20px;
+  }
+
+  .introduction {
+    left: 500px;
+    top: 250px;
+    height: 500px;
+    width: 1420px;
+    font-size: 90px;
+  }
+
+  #socials-container {
+    top: 350px;
+  }
+
+  #socials img{
+    height:90px;
+    width: 90px;
+  }
+
+  #socials-container img{
+    height: 100px;
+    width: 100px;
+    left: 500px;
+    top: 650px;
+  }
+
+  .mytitle_about{
+    top: 1%;
+    margin-bottom: 100px;
+    left: 560px;
+  }
+  .mytitle_about h1 {
+    font-size: 250px;
+    width: 1500px;
+  }
+  .my_whoishe{
+    left: 650px;
+    top: 120px;
+    width: 1440px;
+    height: 800px
+  }
+
+  .my_whoishe p{
+    font-size: 50px;
+  }
+
+  .mytitle_experience h1 {
+    font-size: 200px;
+    width: 1500px;
+  }
+
+  .mytitle_experience {
+    top: 1%;
+    margin-bottom: 100px;
+    left: 560px;
+  }
+
+  .experience {
+    left: 650px;
+    top: 120px;
+    width: 1440px;
+    height: 800px
+  }
+
+  .experience p {
+    font-size: 50px;
+  }
+
+  .mytitle_projects {
+    top: 1%;
+    margin-bottom: 100px;
+    left: 560px;
+  }
+
+.mytitle_projects h1 {
+  font-size: 195px;
+  display: flex;
+  width: 100%;
+}
+
+.mytitle_projects h1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.project {
+  top: 40px;
+  left: 700px;
+  height: 300px;
+  width: 1500px;
+}
+
+.project p {
+  font-size: 40px;
+}
+
+#projects img {
+  width: 200px;
+  height: 200px;
+}
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  #navs {
+    display: none;
+  }  
+  
+  .mytitle_about h1 {
+    position: relative;
+    top: 100px;
+    text-shadow: 3px 3px 5px black;
+  }
+
+  .mytitle_about {
+    position: relative;
+  }  
+
+  .about .my_whoishe {
+    position: relative;
+  }
+
+  .cv {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-style: dashed;
+    border-color: rgb(112, 38, 192);
+  }
+}
