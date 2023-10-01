@@ -1,5 +1,4 @@
-
-
+/* FOR LAPTOP L-1440px */
 @media screen and (max-width: 1440px) {
   section {
     height: 160vh;
@@ -141,6 +140,8 @@
     position:relative;
   }
 }
+
+/* FOR LAPTOP S-1024px */
 
 @media screen and (max-width: 1024px) {
   section {
@@ -409,6 +410,252 @@
 
   #socials-container {
     top: 350px;
+  }
+
+  #socials img{
+    height:90px;
+    width: 90px;
+    left: 140px;
+  }
+
+  #socials-container img{
+    height: 100px;
+    width: 100px;
+    left: 760px;
+    top: 650px;
+  }
+
+  .mytitle_about{
+    top: 1%;
+    margin-bottom: 100px;
+    left: 560px;
+  }
+  
+  .mytitle_about h1 {
+    font-size: 250px;
+    width: 1500px;
+  }
+
+  .mytitle_about img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    bottom: 1px;
+  }
+
+  .my_whoishe {
+    left: 600px;
+    top: 120px;
+    width: 1440px;
+    height: 800px
+  }
+
+  .my_whoishe p{
+    font-size: 50px;
+  }
+
+  .my_whoishe button{
+    height: 50px;
+    font-size: 50px;
+  }
+
+  .my_whoishe button p{
+    font-size: 80px;
+  }
+
+  .mytitle_experience h1 {
+    font-size: 200px;
+    width: 1500px;
+  }
+
+  .mytitle_experience {
+    top: 1%;
+    margin-bottom: 100px;
+    left: 560px;
+  }
+
+  .mytitle_experience img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    bottom: 1px;
+  }
+
+  .experience {
+    left: 600px;
+    top: 120px;
+    width: 1440px;
+    height: 600px
+  }
+
+  #experience p {
+    font-size: 45px;
+  }
+
+  .mytitle_projects {
+    top: 1%;
+    margin-bottom: 100px;
+    left: 560px;
+  }
+
+  
+  .mytitle_projects h1 {
+    font-size: 150px;
+    width: 1600px;
+    left: 90px;
+  }
+
+  .project p {
+    font-size: 40px;
+  }
+
+  .project {
+    top: 40px;
+    left: 650px;
+    height: 300px;
+    width: 1500px;
+  }
+
+  #projects img {
+    width: 150px;
+    height: 150px;
+    left: 0px;
+    position:relative;
+  }
+}
+
+/* MOBILE S-320 PX */
+
+@media screen and (max-width: 320px) {
+  section {
+    height: 290vh;
+  }
+
+  #menu {
+    z-index: 2;
+  }
+
+  #navs {
+    display: none;
+  }
+
+  .formobile {
+    position: relative;
+    top: 500px;
+    left: 400px;
+  }
+
+  .formobile img {
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    border: 2px solid #b5a7bf;
+    box-shadow: 6px 4px #4a4c5c;
+  }
+
+  #menu-bar {
+    width: 45px;
+    height: 40px;
+    left: 300px;
+    top: 200px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+  }
+  
+  .bar {
+    height: 5px;
+    width: 100%;
+    background-color: #DC052D;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  #bar1 {
+    transform: translateY(-4px);
+  }
+  
+  #bar3 {
+    transform: translateY(4px);
+  }
+  
+  .nav1 {
+    transition: 0.3s ease;
+    display: none;
+  }
+  
+  .nav1 ul {
+    padding: 0 22px;
+  }
+  
+  .nav1 li {
+    list-style: none;
+    padding: 12px 0;
+  }
+  
+  .nav1 li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .nav1 li a:hover {
+    font-weight: bold;
+  }
+  
+  .menu-bg, #menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  
+  .menu-bg {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #DC052D, #DC052D);
+    border-radius: 50%;
+    transition: 0.3s ease;
+  }
+  
+  .change {
+    display: block;
+  }
+  
+  .change .bar {
+    background-color: white;
+  }
+  
+  .change #bar1 {
+    transform: translateY(4px) rotateZ(-45deg);
+  }
+  
+  .change #bar2 {
+    opacity: 0;
+  }
+  
+  .change #bar3 {
+    transform: translateY(-6px) rotateZ(45deg);
+  }
+  
+  .change-bg {
+    width: 520px;
+    height: 460px;
+    transform: translate(-60%,-30%);
+  }
+
+  .introduction {
+    left: -170px;;
+    top: 900px;
+    height: 400px;
+    width: 1120px;
+    font-size: 75px;
+  }
+
+  #socials-container {
+    top: 900px;
+    left: -150px;
   }
 
   #socials img{

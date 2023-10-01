@@ -8,6 +8,11 @@
   font-family: 'VT323', monospace;
 }
 
+.formobile img {
+  height: 0px;
+  width: 0px;
+}
+
 body {
   background-image: url('./assets/bg.gif');
   background-size: cover;
@@ -131,7 +136,7 @@ section {
   position: relative;
   background: none;
   left: 58%;
-  bottom: 120px;
+  bottom: 200px;
 }
 
 #socials {
@@ -184,8 +189,6 @@ section {
   text-align: center;
   bottom: 100px;
 }
-
-
 
 .my_whoishe {
   position: relative;
@@ -264,8 +267,6 @@ section {
 #experience p {
   font-size: 30px;
 }
-
-
 
 /* PROJECTS */
 
