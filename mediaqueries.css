@@ -9,13 +9,13 @@
   }
   
   #navs {
-    width: 600px;
-    height: 1270px;
+    width: 500px;
+    height: 1010px;
   }
 
   #navs img {
     height: 250px;
-    left: 100px;
+    left: 60px;
     position: relative;
     width: 250px;
   }
@@ -27,18 +27,19 @@
   
 
   .nav-links button {
-    font-size: 50px;
-    width: 400px;
-    height: 90px;
-    margin: 20px;
+    font-size: 30px;
+    width: 200px;
+    height: 70px;
+    margin-top: 25px;
+
   }
 
   .introduction {
-    left: 500px;
-    top: 250px;
-    height: 500px;
-    width: 1420px;
-    font-size: 90px;
+    left: 390px;
+    top: 100px;
+    height: 550px;
+    width: 1540px;
+    font-size: 100px;
   }
 
   #socials-container {
@@ -48,68 +49,65 @@
   #socials img{
     height:90px;
     width: 90px;
-    left: 140px;
+    left: 80px;
+    top: 40px;
   }
 
   #socials-container img{
     height: 100px;
     width: 100px;
     left: 500px;
-    top: 650px;
+    top: 500px;
   }
 
   .mytitle_about{
-    top: 1%;
     margin-bottom: 100px;
-    left: 560px;
+    left: 360px;
   }
   
   .mytitle_about h1 {
-    font-size: 250px;
+    font-size: 150px;
+    position: relative;
     width: 1500px;
+    top: 10px;
   }
 
   .mytitle_about img {
-    position: relative;
-    height: 200px;
-    width: 200px;
-    bottom: 1px;
+    height: 100px;
+    width: 100px;
   }
 
   .my_whoishe{
-    left: 650px;
-    top: 120px;
-    width: 1440px;
+    left: 524px;
+    width: 1570px;
     height: 800px
   }
 
   .my_whoishe p{
-    font-size: 50px;
+    font-size: 54px;
   }
 
   .mytitle_experience h1 {
-    font-size: 200px;
+    font-size: 150px;
     width: 1500px;
+    top: 10px;
   }
 
   .mytitle_experience {
-    top: 1%;
     margin-bottom: 100px;
-    left: 560px;
+    left: 360px;
   }
 
   .mytitle_experience img {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    bottom: 1px;
+    height: 100px;
+    width: 100px;
   }
 
   .experience {
-    left: 650px;
-    top: 120px;
-    width: 1440px;
-    height: 600px
+    top: 0px;
+    left: 605px;
+    width: 1425px;
+    height: 590px
   }
 
   #experience p {
@@ -117,25 +115,31 @@
   }
 
   .mytitle_projects {
-    top: 1%;
-    margin-bottom: 100px;
-    left: 560px;
+    height: 100px;
+    left: 800px;
+    width: 100px;
+  }
+
+  .mytitle_projects img {
+    height: 100px;
+    width: 100px;
+    left: 90px  ;
+    position: absolute;
   }
 
   .mytitle_projects h1 {
-    font-size: 120px;
-    width: 1000px;
+    font-size: 150px;
+    white-space: nowrap;
   }
 
   .project {
-    top: 40px;
-    left: 700px;
-    height: 300px;
-    width: 1500px;
+    left: 600px;
+    height: 250px;
+    width: 1600px;
   }
 
   .project p {
-    font-size: 40px;
+    font-size: 44px;
   }
 
   #projects img {
@@ -285,483 +289,6 @@
     left: 650px;
     height: 300px;
     width: 1500px;
-  }
-}
-
-
-/* MOBILE S-320 PX */
-
-@media only screen and (max-width: 320px) {
-
-  body {
-    overflow: visible;
-  }
-
-  section {
-    height: 290vh;
-  }
-
-  #navs {
-    display: none;
-  }
-
-  #hamburger-nav {
-    display: flex;
-    position: fixed;
-    gap: 1500px;
-  }
-
-  .formobile {
-    position: relative;
-    top: 500px;
-    left: 200px;
-  }
-
-  .formobile img {
-    height: 500px;
-    width: 500px;
-    border-radius: 100%;
-    border: 2px solid #b5a7bf;
-    box-shadow: 6px 4px #4a4c5c;
-  }
-
-  .introduction {
-    top: 500px;
-    height: 400px;
-    width: 20px;
-    font-size: 20px;
-  }
-
-  #socials-container {
-    top: 900px;
-    left: -150px;
-  }
-
-  #socials img{
-    height:90px;
-    width: 90px;
-    left: 140px;
-  }
-
-  #socials-container img{
-    height: 100px;
-    width: 100px;
-    left: 760px;
-    top: 650px;
-  }
-
-  .mytitle_about{
-    top: 1%;
-    margin-bottom: 100px;
-    left: 560px;
-  }
-  
-  .mytitle_about h1 {
-    font-size: 250px;
-    width: 1500px;
-  }
-
-  .mytitle_about img {
-    position: relative;
-    height: 200px;
-    width: 200px;
-    bottom: 1px;
-  }
-
-  .my_whoishe {
-    left: 600px;
-    top: 120px;
-    width: 1440px;
-    height: 800px
-  }
-
-  .my_whoishe p{
-    font-size: 50px;
-  }
-
-  .my_whoishe button{
-    height: 50px;
-    font-size: 50px;
-  }
-
-  .my_whoishe button p{
-    font-size: 80px;
-  }
-
-  .mytitle_experience h1 {
-    font-size: 200px;
-    width: 1500px;
-  }
-
-  .mytitle_experience {
-    top: 1%;
-    margin-bottom: 100px;
-    left: 560px;
-  }
-
-  .mytitle_experience img {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    bottom: 1px;
-  }
-
-  .experience {
-    left: 600px;
-    top: 120px;
-    width: 1440px;
-    height: 600px
-  }
-
-  #experience p {
-    font-size: 45px;
-  }
-
-  .mytitle_projects {
-    top: 1%;
-    margin-bottom: 100px;
-    left: 560px;
-  }
-
-  
-  .mytitle_projects h1 {
-    font-size: 150px;
-    width: 1600px;
-    left: 90px;
-  }
-
-  .project p {
-    font-size: 40px;
-  }
-
-  .project {
-    top: 40px;
-    left: 650px;
-    height: 300px;
-    width: 1500px;
-  }
-
-  #projects img {
-    width: 150px;
-    height: 150px;
-    left: 0px;
-    position:relative;
-  }
-}
-
-/* MOBILE S-375 PX */
-
-@media only screen and (max-width: 376px) {
-
-  body {
-    overflow: visible;
-  }
-
-  section {
-    height: 290vh;
-  }
-
-  #navs {
-    display: none;
-  }
-
-  #hamburger-nav {
-    display: flex;
-    position: fixed;
-    gap: 300px;
-  }
-
-  .introduction {
-    display: block;
-    position: absolute;
-    left: -170px;
-    top: 100px;
-    width: 30px;
-  }
-
-  .introduction p {
-    font-size: 75px;
-  }
-
-  #socials-container {
-    top: 100px;
-    left: -150px;
-  }
-
-  #socials img{
-    height:90px;
-    width: 90px;
-    left: 140px;
-  }
-
-  #socials-container img{
-    height: 100px;
-    width: 100px;
-    left: 160px;
-    top: 150px;
-  }
-
-  .mytitle_about{
-    top: 1%;
-    margin-bottom: 100px;
-    left: 20px;
-  }
-  
-  .mytitle_about h1 {
-    font-size: 250px;
-    width: 1500px;
-  }
-
-  .mytitle_about img {
-    position: relative;
-    height: 200px;
-    width: 200px;
-    bottom: 1px;
-  }
-
-  .my_whoishe {
-    left: 600px;
-    top: 120px;
-    width: 1440px;
-    height: 800px
-  }
-
-  .my_whoishe p{
-    font-size: 50px;
-  }
-
-  .my_whoishe button{
-    height: 50px;
-    font-size: 50px;
-  }
-
-  .my_whoishe button p{
-    font-size: 80px;
-  }
-
-  .mytitle_experience h1 {
-    font-size: 200px;
-    width: 1500px;
-  }
-
-  .mytitle_experience {
-    top: 1%;
-    margin-bottom: 100px;
-    left: 60px;
-  }
-
-  .mytitle_experience img {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    bottom: 1px;
-  }
-
-  .experience {
-    left: 600px;
-    top: 120px;
-    width: 1440px;
-    height: 600px
-  }
-
-  #experience p {
-    font-size: 45px;
-  }
-
-  .mytitle_projects {
-    top: 1%;
-    margin-bottom: 100px;
-    left: 60px;
-  }
-
-  
-  .mytitle_projects h1 {
-    font-size: 150px;
-    width: 1600px;
-    left: 10px;
-  }
-
-  .project p {
-    font-size: 40px;
-  }
-
-  .project {
-    top: 40px;
-    left: 650px;
-    height: 300px;
-    width: 500px;
-  }
-
-  #projects img {
-    width: 150px;
-    height: 150px;
-    left: 0px;
-    position:relative;
-  }
-}
-
-/* MOBILE S-425 PX */
-
-@media only screen and (max-width: 426px) {
-
-  body {
-    overflow: visible;
-  }
-
-  section {
-    height: 290vh;
-  }
-
-  #menu {
-    z-index: 2;
-  }
-
-  #navs {
-    display: none;
-  }
-
-  #hamburger-nav {
-    display: flex;
-    position: fixed;
-    gap: 1000px;
-  }
-
-  .formobile {
-    position: relative;
-    top: 600px;
-    left: 200px;
-  }
-
-  .formobile img {
-    height: 500px;
-    width: 500px;
-    border-radius: 100%;
-    border: 2px solid #b5a7bf;
-    box-shadow: 6px 4px #4a4c5c;
-  }
-
-  .introduction {
-    left: -170px;
-    top: 1500px;
-    height: 400px;
-    width: 320px;
-    font-size: 75px;
-  }
-
-  #socials-container {
-    top: 900px;
-    left: -150px;
-  }
-
-  #socials img{
-    height:90px;
-    width: 90px;
-    left: 140px;
-  }
-
-  #socials-container img{
-    height: 100px;
-    width: 100px;
-    left: 760px;
-    top: 650px;
-  }
-
-  .mytitle_about{
-    top: 1%;
-    margin-bottom: 100px;
-    left: 560px;
-  }
-  
-  .mytitle_about h1 {
-    font-size: 250px;
-    width: 1500px;
-  }
-
-  .mytitle_about img {
-    position: relative;
-    height: 200px;
-    width: 200px;
-    bottom: 1px;
-  }
-
-  .my_whoishe {
-    left: 600px;
-    top: 120px;
-    width: 1440px;
-    height: 800px
-  }
-
-  .my_whoishe p{
-    font-size: 50px;
-  }
-
-  .my_whoishe button{
-    height: 50px;
-    font-size: 50px;
-  }
-
-  .my_whoishe button p{
-    font-size: 80px;
-  }
-
-  .mytitle_experience h1 {
-    font-size: 200px;
-    width: 1500px;
-  }
-
-  .mytitle_experience {
-    top: 1%;
-    margin-bottom: 100px;
-    left: 560px;
-  }
-
-  .mytitle_experience img {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    bottom: 1px;
-  }
-
-  .experience {
-    left: 600px;
-    top: 120px;
-    width: 1440px;
-    height: 600px
-  }
-
-  #experience p {
-    font-size: 45px;
-  }
-
-  .mytitle_projects {
-    top: 1%;
-    margin-bottom: 100px;
-    left: 560px;
-  }
-
-  
-  .mytitle_projects h1 {
-    font-size: 150px;
-    width: 1600px;
-    left: 90px;
-  }
-
-  .project p {
-    font-size: 40px;
-  }
-
-  .project {
-    top: 40px;
-    left: 650px;
-    height: 300px;
-    width: 1500px;
-  }
-
-  #projects img {
-    width: 150px;
-    height: 150px;
-    left: 0px;
-    position:relative;
   }
 }
 
