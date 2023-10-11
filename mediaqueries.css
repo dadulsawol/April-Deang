@@ -20,6 +20,12 @@
     width: 250px;
   }
 
+  .introduction img {
+    height: 90px;
+    width: 90px;
+  }
+  
+
   .nav-links button {
     font-size: 50px;
     width: 400px;
@@ -151,11 +157,16 @@
     display: none;
   }
 
+  #navs {
+    width: 600px;
+    height: 1200px;
+  }
+
   .introduction {
-    left: 450px;
+    left: 500px;
     top: 250px;
     height: 500px;
-    width: 1400px;
+    width: 1350px;
     font-size: 90px;
   }
 
@@ -164,7 +175,7 @@
   }
 
   #socials img{
-    height:90px;
+    height: 90px;
     width: 90px;
     left: 140px;
   }
@@ -277,149 +288,10 @@
   }
 }
 
-@media screen and (max-width: 786px) {
-
-  body {
-    overflow: visible;
-  }
-
-  section {
-    height: 290vh;
-  }
-
-  #hamburger-nav {
-    display: flex;
-    position: fixed;
-    gap: 1900px;
-  }
-
-  .introduction {
-    left: 0px;
-    top: 150px;
-    height: 500px;
-    width: 1900px;
-    font-size: 200px;
-  }
-
-  #socials-container {
-    top: 350px;
-  }
-
-  #socials img{
-    height:90px;
-    width: 90px;
-    left: 140px;
-  }
-
-  #socials-container img{
-    height: 100px;
-    width: 100px;
-    left: 760px;
-    top: 650px;
-  }
-
-  .mytitle_about{
-    top: 1%;
-    margin-bottom: 100px;
-    left: 560px;
-  }
-  
-  .mytitle_about h1 {
-    font-size: 250px;
-    width: 1500px;
-  }
-
-  .mytitle_about img {
-    position: relative;
-    height: 200px;
-    width: 200px;
-    bottom: 1px;
-  }
-
-  .my_whoishe {
-    left: 600px;
-    top: 120px;
-    width: 1440px;
-    height: 800px
-  }
-
-  .my_whoishe p{
-    font-size: 50px;
-  }
-
-  .my_whoishe button{
-    height: 50px;
-    font-size: 50px;
-  }
-
-  .my_whoishe button p{
-    font-size: 80px;
-  }
-
-  .mytitle_experience h1 {
-    font-size: 200px;
-    width: 1500px;
-  }
-
-  .mytitle_experience {
-    top: 1%;
-    margin-bottom: 100px;
-    left: 560px;
-  }
-
-  .mytitle_experience img {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    bottom: 1px;
-  }
-
-  .experience {
-    left: 600px;
-    top: 120px;
-    width: 1440px;
-    height: 600px
-  }
-
-  #experience p {
-    font-size: 45px;
-  }
-
-  .mytitle_projects {
-    top: 1%;
-    margin-bottom: 100px;
-    left: 560px;
-  }
-
-  
-  .mytitle_projects h1 {
-    font-size: 150px;
-    width: 1600px;
-    left: 90px;
-  }
-
-  .project p {
-    font-size: 40px;
-  }
-
-  .project {
-    top: 40px;
-    left: 650px;
-    height: 300px;
-    width: 1500px;
-  }
-
-  #projects img {
-    width: 150px;
-    height: 150px;
-    left: 0px;
-    position:relative;
-  }
-}
 
 /* MOBILE S-320 PX */
 
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
 
   body {
     overflow: visible;
@@ -579,7 +451,7 @@
 
 /* MOBILE S-375 PX */
 
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
 
   body {
     overflow: visible;
@@ -596,19 +468,23 @@
   #hamburger-nav {
     display: flex;
     position: fixed;
-    gap: 1000px;
+    gap: 300px;
   }
 
   .introduction {
-    left: -170px;;
-    top: 900px;
-    height: 400px;
-    width: 1120px;
+    display: block;
+    position: absolute;
+    left: -170px;
+    top: 100px;
+    width: 30px;
+  }
+
+  .introduction p {
     font-size: 75px;
   }
 
   #socials-container {
-    top: 900px;
+    top: 100px;
     left: -150px;
   }
 
@@ -621,14 +497,14 @@
   #socials-container img{
     height: 100px;
     width: 100px;
-    left: 760px;
-    top: 650px;
+    left: 160px;
+    top: 150px;
   }
 
   .mytitle_about{
     top: 1%;
     margin-bottom: 100px;
-    left: 560px;
+    left: 20px;
   }
   
   .mytitle_about h1 {
@@ -671,7 +547,7 @@
   .mytitle_experience {
     top: 1%;
     margin-bottom: 100px;
-    left: 560px;
+    left: 60px;
   }
 
   .mytitle_experience img {
@@ -695,14 +571,14 @@
   .mytitle_projects {
     top: 1%;
     margin-bottom: 100px;
-    left: 560px;
+    left: 60px;
   }
 
   
   .mytitle_projects h1 {
     font-size: 150px;
     width: 1600px;
-    left: 90px;
+    left: 10px;
   }
 
   .project p {
@@ -713,7 +589,7 @@
     top: 40px;
     left: 650px;
     height: 300px;
-    width: 1500px;
+    width: 500px;
   }
 
   #projects img {
@@ -726,7 +602,7 @@
 
 /* MOBILE S-425 PX */
 
-@media screen and (max-width: 426px) {
+@media only screen and (max-width: 426px) {
 
   body {
     overflow: visible;
@@ -891,35 +767,50 @@
 
 /* MOBILE S-768 PX */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
+
+  body {
+    overflow: visible;
+  }
   section {
-    height: 290vh;
+    height: 400vh;
   }
 
   #navs {
     display: none;
   }
 
+  #hamburger-nav {
+    display: flex;
+    position: fixed;
+    gap: 900px;
+  }
+
   .formobile {
     position: relative;
     top: 200px;
-    left: 850px;
+    left: 1200px;
   }
 
   .formobile img {
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     border-radius: 100%;
     border: 2px solid #b5a7bf;
     box-shadow: 6px 4px #4a4c5c;
   }
 
   .introduction {
-    left: -170px;
-    top: 85%;
-    height: 700px;
-    width: 2030px;
-    font-size: 130px;
+    left: -160px;
+    top: 100%;
+    height: 1000px;
+    width: 2730px;
+    font-size: 180px;
+  }
+
+  .introduction img {
+    height: 160px;
+    width: 160px;
   }
 
   #socials-container {
@@ -928,45 +819,44 @@
   }
 
   #socials img{
-    height:90px;
-    width: 90px;
-    left: 140px;
+    height:150px;
+    width: 150px;
+    left: 300px;
   }
 
   #socials-container img{
-    height: 100px;
-    width: 100px;
-    left: 760px;
-    top: 650px;
+    height: 200px;
+    width: 200px;
+    left: 1060px;
+    top: 930px;
   }
 
   .mytitle_about{
     top: 1%;
     margin-bottom: 100px;
-    left: 560px;
+    left: 200px;
   }
   
   .mytitle_about h1 {
-    font-size: 250px;
-    width: 1500px;
+    font-size: 350px;
   }
 
   .mytitle_about img {
-    position: relative;
+    position: absolute;
     height: 200px;
+    top: 90px;
     width: 200px;
-    bottom: 1px;
   }
 
   .my_whoishe {
-    left: 600px;
-    top: 120px;
-    width: 1440px;
-    height: 800px
+    left: 50px;
+    top: 240px;
+    width: 2700px;
+    height: 1400px
   }
 
   .my_whoishe p{
-    font-size: 50px;
+    font-size: 90px;
   }
 
   .my_whoishe button{
@@ -979,8 +869,8 @@
   }
 
   .mytitle_experience h1 {
-    font-size: 200px;
-    width: 1500px;
+    font-size: 250px;
+    left: 90px;
   }
 
   .mytitle_experience {
@@ -990,51 +880,50 @@
   }
 
   .mytitle_experience img {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    bottom: 1px;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 0px;
   }
 
   .experience {
-    left: 600px;
-    top: 120px;
-    width: 1440px;
-    height: 600px
+    left: 0px;
+    top: 260px;
+    width: 2700px;
+    height: 1180px
   }
 
   #experience p {
-    font-size: 45px;
+    font-size: 85px;
   }
 
   .mytitle_projects {
-    top: 1%;
+    top: 2%;
     margin-bottom: 100px;
-    left: 560px;
+    left: 200px;
   }
 
   
   .mytitle_projects h1 {
-    font-size: 150px;
-    width: 1600px;
-    left: 90px;
+    font-size: 240px;
   }
 
   .project p {
-    font-size: 40px;
+    font-size: 70px;
+    padding: 50px;
   }
 
   .project {
-    top: 40px;
-    left: 650px;
-    height: 300px;
-    width: 1500px;
+    top: 500px;
+    left: 100px;
+    height: 500px;
+    width: 2730px;
   }
 
   #projects img {
-    width: 150px;
-    height: 150px;
-    left: 0px;
+    padding: 40px;
+    width: 300px;
+    height: 300px;
     position:relative;
   }
 }

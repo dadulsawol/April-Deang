@@ -41,7 +41,7 @@ section {
 #navs {
   align-items: center;
   width: 320px;
-  height: 630px;
+  height: 545px;
   position: center;
   z-index: 1;
   top: 0;
@@ -128,10 +128,10 @@ section {
   padding: 50px;
   text-decoration: none;
   border-radius: 25px;
-  left: 235px;
-  font-size: 70px;
-  width: 1100px;
-  bottom: 160px;
+  left: 200px;
+  font-size: 68px;
+  width: 1010px;
+  bottom: 100px;
 }
 
 /* Icon */
@@ -203,13 +203,13 @@ section {
   box-shadow: 6px 4px #4a4c5c;
   margin: 50px;
   margin-bottom: 1%;
-  padding: 50px;
-  font-size: 35px;
+  padding: 45px;
+  font-size: 30px;
   text-decoration: none;
   border-radius: 25px;
   left: 350px;
-  width: 1180px;
-  height: 515px;
+  width: 1010px;
+  height: 455px;
   bottom: 120px;
 }
 
@@ -260,17 +260,17 @@ section {
   box-shadow: 6px 4px #4a4c5c;
   margin: 50px;
   margin-bottom: 1%;
-  padding: 50px;
+  padding: 30px;
   text-decoration: none;
   border-radius: 25px;
-  left: 350px;
-  width: 1180px;
-  height: 450px;
-  bottom: 120px;
+  left: 340px;
+  width: 1060px;
+  height: 430px;
+  bottom: 100px;
 }
 
 #experience p {
-  font-size: 35px;
+  font-size: 33px;
 } 
 
 /* PROJECTS */
@@ -318,15 +318,20 @@ section {
   border: 2px solid #b5a7bf;
   box-shadow: 6px 4px #4a4c5c;
   margin-bottom: 1%;
-  padding: 10px;
-  font-size: 28px;
+  padding-top: 5px;
+  font-size: 27px;
   text-decoration: none;
   border-radius: 25px;
-  left: 500px;
-  width: 1050px;
-  height: 170px;
+  left: 450px;
+  width: 1020px;
+  height: 165px;
   bottom: 120px;
 } 
+
+.introduction img {
+  height: 48px;
+  width: 48px;
+}
 
 .project-container img {
   position: relative;
