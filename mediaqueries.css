@@ -9,15 +9,16 @@
   }
   
   #navs {
-    width: 500px;
-    height: 1010px;
+    width: 300px;
+    height: 580px;
+  
   }
 
   #navs img {
-    height: 250px;
-    left: 60px;
+    height: 150px;
+    left: 20px;
     position: relative;
-    width: 250px;
+    width: 150px;
   }
 
   .introduction img {
@@ -27,42 +28,36 @@
   
 
   .nav-links button {
-    font-size: 30px;
-    width: 200px;
-    height: 70px;
-    margin-top: 25px;
-
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    margin-top: 0px;
+    padding: 10px;
+    padding-left: 0px;
   }
 
   .introduction {
-    left: 390px;
-    top: 100px;
-    height: 550px;
-    width: 1540px;
-    font-size: 100px;
+    left: 170px;
+    top: -90px;
+    height: 450px;
+    width: 950px;
+    font-size: 60px;
   }
 
   #socials-container {
-    top: 350px;
+    top: -30px;
   }
 
   #socials img{
-    height:90px;
-    width: 90px;
-    left: 80px;
-    top: 40px;
-  }
-
-  #socials-container img{
-    height: 100px;
-    width: 100px;
-    left: 500px;
-    top: 500px;
+    height:50px;
+    width: 50px;
+    left: 40px;
+    top: 5px;
   }
 
   .mytitle_about{
     margin-bottom: 100px;
-    left: 360px;
+    left: 0px;
   }
   
   .mytitle_about h1 {
@@ -78,24 +73,23 @@
   }
 
   .my_whoishe{
-    left: 524px;
-    width: 1570px;
-    height: 800px
+    left: 315px;
+    width: 970px;
+    height: 450px
   }
 
   .my_whoishe p{
-    font-size: 54px;
+    font-size: 30px;
   }
 
   .mytitle_experience h1 {
-    font-size: 150px;
+    font-size: 120px;
     width: 1500px;
-    top: 10px;
   }
 
   .mytitle_experience {
     margin-bottom: 100px;
-    left: 360px;
+    left: 80px;
   }
 
   .mytitle_experience img {
@@ -454,3 +448,183 @@
     position:relative;
   }
 }
+
+/* FOR Mobile 320px */
+@media screen and (max-width: 320px) {
+  section {
+    height: 120vh;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .introduction img {
+    height: 20px;
+    width: 20px;
+  }
+
+  #navs {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+    position: fixed;
+    gap: 190px;
+  }
+
+  .hamburger-logo a {
+    font-size: 40px;
+    left: 5px;
+  }
+
+  .menu-links a {
+    padding-left: 390px;
+  }
+
+  .menu-links {
+    height: 500px;
+    width: 500px;
+  }
+
+  .formobile img {
+    height: 120px;
+    width: 120px;
+  }
+
+  .formobile {
+    left: 80px;
+    padding: 20px;
+    padding-top: 5px;
+  }
+
+  .introduction p {
+    padding: 0px;
+    padding-top: 10px;
+  }
+
+  .introduction {
+    height: 200px;
+    width: 260px;
+    padding: 20px;
+    left: -190px;
+    top: 150px;
+    font-size: 18px;
+  }
+
+
+  #socials-container img{
+    height: 40px;
+    width: 40px;
+    left: -120px;
+    top: 30px;
+  }
+
+  .mytitle_about{
+    left: -690px;
+    top: auto;
+  }
+  
+  .mytitle_about h1 {
+    font-size: 50px;
+  }
+
+  .mytitle_about img {
+    top: 1%;
+    height: 40px;
+    width: 40px;
+  }
+
+  .my_whoishe{
+    height: 370px;
+    width: 290px;
+    padding: 9px;
+    left: -44px;
+    top: auto;
+  }
+
+  .my_whoishe p{
+    padding: 0%;
+    padding-top: 10px;
+    font-size: 10px;
+  }
+
+  .my_whoishe .cv {
+    padding: 0px;
+    height: 25px;
+    font-size: 10px;
+  }
+
+  .mytitle_experience h1 {
+    font-size: 40px;
+  }
+
+  .my_whoishe img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .mytitle_experience {
+    left: -690px;
+    top: -40px;
+  }
+
+  .mytitle_experience img {
+    top: 1%;
+    height: 40px;
+    width: 40px;
+  }
+
+  .experience {
+    height: 260px;
+    width: 290px;
+    padding: 9px;
+    left: -44px;
+    top: auto;
+  }
+
+  #experience p {
+    padding: 0%;
+    padding-top: 10px;
+    font-size: 9px; 
+  }
+
+  .mytitle_projects {
+    left: -40px;
+    top: 40px;
+  }
+
+  .mytitle_projects img {
+    top: 0%;
+    left: 0px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .mytitle_projects h1 {
+    font-size: 50px;
+  }
+
+  .project {
+    height: 90px;
+    width: 290px;
+    padding: 9px;
+    left: 0px;
+    top: auto;
+  }
+
+  .project p {
+    padding: 0%;
+    padding-top: 10px;
+    font-size: 10px;
+  }
+
+  #projects img {
+    position: relative;
+    height: 40px;
+    padding: 5px;
+    width: 40px;
+  }
+}
+

@@ -213,6 +213,11 @@ section {
   bottom: 120px;
 }
 
+.my_whoishe img {
+  height: 48px;
+  width: 48px;
+}
+
 .cv {
   padding-left: 50px;
   padding-right: 50px;
@@ -235,6 +240,11 @@ section {
   height:80px;
   width: 80px;
   bottom: 1px;
+}
+
+.experience img {
+  height: 48px;
+  width: 48px;
 }
 
 .mytitle_experience {
