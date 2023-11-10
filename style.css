@@ -78,7 +78,7 @@ section {
   box-shadow: 6px 4px #4a4c5c;
   box-sizing: content-box;
   margin: 0px;
-  padding: 15px;
+  padding: 10px;
   padding-left: 50px;
   padding-right: 50px;
   width: 90px;
@@ -86,7 +86,7 @@ section {
   border: 2px;
   border-style: solid;
   border-radius: 25px;
-  transition: 1.5s;
+  transition: 1s;
 }
 
 .nav-links button:hover {
@@ -357,6 +357,20 @@ section {
   height: 80px;
   width: 80px;
   bottom: 40px;
+}
+
+/*FOOTER*/
+
+.cont {
+  left: 500px;
+  position: relative;
+}
+
+.cont img {
+  left: 100px;
+  padding-left: 10px;
+  margin-left: 100px;
+  position: relative;
 }
 
 /* HAMBORGIR NAV */
