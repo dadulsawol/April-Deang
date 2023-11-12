@@ -1,323 +1,50 @@
-/* FOR LAPTOP L-1440px */
-@media screen and (max-width: 1440px) {
-  .mytitle_projects {
-    height: 100px;
-    left: 800px;
-    width: 100px;
-  }
+@media screen and (max-width: 1200px) {
 
-  .mytitle_projects img {
-    height: 100px;
-    width: 100px;
-    left: 90px  ;
-    position: absolute;
-  }
+    /* --- NAV BAR --- */
+    .WebsiteLinks {
+        display: none;
+    }
 
-  .mytitle_projects h1 {
-    font-size: 150px;
-    white-space: nowrap;
-  }
+    #NavBar .ToggleButton {
+        display: block;
+    }
+
+    #NavBar {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #NavBar .WebsiteName, #NavBar .ToggleButton {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .DropdownMenu {
+        display: block;
+        top: 15%;
+    }
 }
 
-/* FOR LAPTOP S-1024px */
+@media screen and (max-width: 600px) {
 
-@media screen and (max-width: 1024px) {
-  #hamburger-nav {
-    display: none;
-  }
-
-  
-  .mytitle_about h1 {
-    font-size: 250px;
-    width: 1500px;
-  }
-
-  .mytitle_experience h1 {
-    font-size: 200px;
-    width: 1500px;
-  }
-}
-
-/* MOBILE S-768 PX */
-
-@media screen and (max-width: 769px) {
-
-  body {
-    overflow: visible;
-  }
-
-  #navs {
-    display: none;
-  }
-
-  #hamburger-nav {
+  #NavBar .ToggleButton {
     display: flex;
-    position: fixed;
-    gap: 900px;
+    align-items: center;
   }
 
-  .formobile {
-    position: relative;
-    top: 200px;
-    left: 1200px;
-  }
-
-  .formobile img {
-    height: 600px;
-    width: 600px;
-    border-radius: 100%;
-    border: 2px solid #b5a7bf;
-    box-shadow: 6px 4px #4a4c5c;
-  }
-
-  .introduction img {
-    height: 160px;
-    width: 160px;
-  }
-
-  #socials-container {
-    top: 350px;
-    left: 250px;
-  }
-
-  #socials img{
-    height:150px;
-    width: 150px;
-    left: 300px;
-  }
-
-  #socials-container img{
-    height: 200px;
-    width: 200px;
-    left: 1060px;
-    top: 930px;
-  }
-  
-  .mytitle_about img {
-    position: absolute;
-    height: 200px;
-    top: 90px;
-    width: 200px;
-  }
- 
-  .mytitle_experience h1 {
-    font-size: 250px;
-    left: 90px;
-  }
-
-  .mytitle_experience {
-    top: 1%;
-    margin-bottom: 100px;
-    left: 560px;
-  }
-
-  .mytitle_experience img {
-    position: absolute;
-    height: 250px;
-    width: 250px;
-    top: 0px;
-  }
-
-  .mytitle_projects {
-    top: 2%;
-    margin-bottom: 100px;
-    left: 200px;
-  }
-
-  .mytitle_projects h1 {
-    font-size: 240px;
-  }
-
-}
-
-/* FOR Mobile 320px */
-@media screen and (max-width: 320px) {
-  section {
-    height: 100vh;
-  }
-
-  body {
-    overflow-x: hidden;
-
-  }
-
-  .introduction img {
+  #HamburgerNav {
     height: 20px;
-    width: 20px;
   }
 
-  #navs {
-    display: none;
+  .DropdownMenu {
+    display: block;
+    position: absolute;
+    left: 10%;
+    width: unset;
+    right: 10%;
   }
 
-  #hamburger-nav {
-    display: flex;
-    position: fixed;
-    gap: 190px;
+  .DropdownMenu a {
+    font-size: 15px;
   }
-
-  .hamburger-logo a {
-    font-size: 40px;
-    left: 5px;
-  }
-
-  .menu-links a {
-    padding-left: 390px;
-  }
-
-  .menu-links {
-    height: 500px;
-    width: 500px;
-  }
-
-  .formobile img {
-    height: 120px;
-    width: 120px;
-  }
-
-  .formobile {
-    left: 100px;
-    margin-top: 0;
-  }
-
-  .introduction p {
-    padding: 0px;
-    padding-top: 10px;
-  }
-
-  .introduction {
-    height: 200px;
-    width: 260px;
-    padding: 20px;
-    left: -190px;
-    top: 150px;
-    font-size: 18px;
-  }
-
-  #socials-container img{
-    height: 40px;
-    width: 40px;
-    left: -120px;
-    top: 30px;
-  }
-
-  .mytitle_about{
-    left: -690px;
-    top: auto;
-  }
-  
-  .mytitle_about h1 {
-    font-size: 50px;
-  }
-
-  .mytitle_about img {
-    top: 1%;
-    height: 40px;
-    width: 40px;
-  }
-
-  .my_whoishe{
-    height: 370px;
-    width: 290px;
-    padding: 9px;
-    left: -44px;
-    top: auto;
-  }
-
-  .my_whoishe p{
-    padding: 0%;
-    padding-top: 10px;
-    font-size: 10px;
-  }
-
-  .my_whoishe .cv {
-    padding: 0px;
-    height: 25px;
-    font-size: 10px;
-  }
-
-  .mytitle_experience h1 {
-    font-size: 40px;
-  }
-
-  .my_whoishe img {
-    height: 40px;
-    width: 40px;
-  }
-
-  .mytitle_experience {
-    left: -690px;
-    top: -40px;
-  }
-
-  .mytitle_experience img {
-    top: 1%;
-    height: 40px;
-    width: 40px;
-  }
-
-  .experience {
-    height: 260px;
-    width: 290px;
-    padding: 9px;
-    left: -44px;
-    top: auto;
-  }
-
-  #experience p {
-    padding: 0%;
-    padding-top: 10px;
-    font-size: 9px; 
-  }
-
-  .mytitle_projects {
-    left: -40px;
-    top: 40px;
-  }
-
-  .mytitle_projects img {
-    top: 0%;
-    left: 0px;
-    height: 40px;
-    width: 40px;
-  }
-
-  .mytitle_projects h1 {
-    font-size: 50px;
-  }
-
-  .project {
-    height: 90px;
-    width: 290px;
-    padding: 9px;
-    left: 0px;
-    top: auto;
-  }
-
-  .project p {
-    padding: 0%;
-    padding-top: 10px;
-    font-size: 10px;
-  }
-
-  #projects img {
-    position: relative;
-    height: 40px;
-    padding: 5px;
-    width: 40px;
-  }
-  /*FOOTER*/
-
-.cont {
-  position: relative;
-  left: 10px;
 }
-
-.cont img {
-  padding: 5px;
-  left: 10px;
-  position: relative;
-}
-
-}
-

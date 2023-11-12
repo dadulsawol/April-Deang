@@ -9,153 +9,153 @@
   </head>
 
   <body>
-
-    <nav id="hamburger-nav">
-      <div class="hamburger-logo"><a href="#page">Home</a></div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
-        </div>
+    <nav id="NavBar">
+      <div class="WebsiteName">
+        <a href="#page" class="logo"><b>Deang</b></a>
       </div>
-    </nav>
-    
-    <div class="formobile">
-      <img src="./assets/Deang_DP.jpg" alt="picture">
+
+      <div class="ToggleButton">
+        <img
+        src="./assets/HamburgerNav.svg"
+        alt="HamburgerNav"
+        id="HamburgerNav"
+        />
+        </div>
+
+      <div class="WebsiteLinks">
+          <ul class="NavBarLinks">
+            <li><a href="#about"><button>About Her</button></a></li>
+            <li><a href="#experience"><button>Experience</button></a></li>
+            <li><a href="#projects"><button>Projects</button></a></li>
+            <li><a href="#contacts"><button>Contacts</button></a></li>
+          </ul>
+      </div>
+
+      <div class="DropdownMenu">
+          <li><a href="#about"><button>About Her</button></a></li>
+          <li><a href="#experience"><button>Experience</button></a></li>
+          <li><a href="#projects"><button>Projects</button></a></li>
+          <li><a href="#contacts"><button>Contacts</button></a></li>
+    </div>
+  </nav>
+
+  <section id="page">
+    <div class="introduction">
+      <p>01 < .....Hello World ! ><img src="./assets/helloworld.gif" alt="Computer man" ></p>
+      <p>02 < Welcome to My Personal Website ></p>
+      <p>03 < Nice to meet you  ></p>
+      <p>04 < I am April ></I><img src="./assets/aprilgif.gif" alt="Computer man"></p>
+      <p>05 < A Front End Developer..... ><img src="./assets/forintro.gif" alt="Computer man"> </p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="mytitle_about">
+      <h1> ABOUT ME! <img
+        src="./assets/aboutme.gif"
+        alt="My Github"
+        class="icon"
+        onclick="location.href='https://github.com/dadulsawol'">
+      </p>
+    </div>
+    <div class="my_whoishe">
+      <p>01 < Hello there, I am April Joy L. Deang, a 20-year-old student ></p>
+      <p>02 < Currently, I'm pursuing Bachelor of Science in Information System ></p>
+      <p>03 < at the Technological University of the Philippines. ></p>
+      <p>04 < A passionate programmer and software developer. > </p>
+      <p>05 < As a student in this exciting field, ></p>
+      <p>06 < I'm constantly exploring and learning new things. ></p>
+      <p>07 < I believe in the power of technology to transform the world, ></p>
+      <p>08 < and I'm thrilled to be a part of it. ></p>
+      <p>09 < This website is my canvas, where I showcase myself, ></p>
+      <p>10 < and document my educational journey. ></p>
+      <p>12 < If you want to learn more about my background and experience, ></p>
+      <p>13 < feel free to download my CV below. ></p>
+      <p>&nbsp</p>
+      <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp <button
+          class="cv"
+          onclick="window.open('./assets/DEANG_CV.pdf')"
+        >
+          Download
+        </button>
+      <p>15 < I am excited to share my journey with you ! > <img src="./assets/design.gif" alt="cinna"> </p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="mytitle_experience">
+      <h1> MY EXPERIENCE! <img
+        src="./assets/forintro.gif"
+        alt="My Github"
+        class="icon"
+        onclick="location.href='https://github.com/dadulsawol'"/>
+      </h1>
     </div>
 
-    <div class="menu-bg" id="menu-bg"></div>
+    <div class="experience">
+      <p>01 < I'm an aspiring front-end developer and data analyst who loves creating ></p>
+      <p>02 < attractive and easy-to-use websites. I enjoy transforming ></p>
+      <p>03 < code into visually appealing online experiences, whether it is designing ></p>
+      <p>04 < stylishinterfaces or making user interactions better.  ></p>
+      <p>05 <  ></p>
+      <p>06 < I've also honed my skills in working with and ></p>
+      <p>07 < manipulating data through an online course at SPARTA. ></p>
+      <p>08 < During my time there, I became knowledgable about data analysis. ></p>
+      <p>09 < I've completed projects in SPARTA where I delved into data research , ></p>
+      <p>10 < Thanks to SPARTA, I've gained the ability to handle numbers, uncover ></p>
+      <p>11 < patterns, and extract valuable insights from data. ></p>
+      <p>12 < If you want to contact me feel free to send a direct message ></p>
+      <p>13 < on my social media platforms available here on my website ></p>
+    </div>
+  </section>
 
-    <nav id="navs">
-      <img src="./assets/Deang_DP.jpg" alt="picture">
-      <ul class="nav-links">
-        <li><a href="#page"><button>Home</button></a></li>
-        <li><a href="#about"><button>Who is she?</button></a></li>
-        <li><a href="#experience"><button>Experience</button></a></li>
-        <li><a href="#projects"><button>Projects</button></a></li>
-        <li><a href="#contacts"><button>Contacts</button></a></li>
-      </ul>
-      <div id="socials">
-        <img
-            src="./assets/fb.png"
-            alt="My Facebook"
-            class="icons"
-            onclick="window.open('https://www.facebook.com/aprljydng/')"
-          />
-          <img
-            src="./assets/ig.png"
-            alt="My Instagram"
-            class="icons"
-            onclick="window.open('https://www.instagram.com/dadulsawol_wu/')"
-            onclick="location.href='https://www.instagram.com/dadulsawol_wu/'"
-          />
-          <img
-            src="./assets/twtr.png"
-            alt="My Twitter"
-            class="icons"
-            onclick="window.open('https://twitter.com/dadulsawol_wu')"
-          />
-      </div>
-    </nav>
+  <section id="projects">
+    <div class="mytitle_projects">
+      <h1> MY PROJECTS! </h1> 
+      <img
+        src="./assets/aprilgif.gif"
+        alt="My Github"
+        class="icon"
+        onclick="location.href='https://github.com/dadulsawol'"/>
+      </p>
+    </div>
 
-    <section id="page">
-      <div class="intro">
-        <div class="introduction">
-          <p>01 < .....Hello World ! ><img src="./assets/helloworld.gif" alt="Computer man" ></p>
-          <p>02 < Welcome to My Personal Website ></p>
-          <p>03 < Nice to meet you  ></p>
-          <p>04 < I am April ></I><img src="./assets/aprilgif.gif" alt="Computer man"></p>
-          <p>05 < A Front End Developer..... ><img src="./assets/forintro.gif" alt="Computer man"> </p>
-        </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linked.png"
-            alt="My LinkedIn"
-            class="icon"
-            onclick="location.href='https://ph.linkedin.com/in/april-joy-deang-438bb5259'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github"
-            class="icon"
-            onclick="location.href='https://github.com/dadulsawol'"
-          />
-        </div>
-      </div>
-    </section>
-
-    <section id="about">
-      <div class="mytitle_about">
-        <h1> ABOUT ME! <img
-          src="./assets/aboutme.gif"
-          alt="My Github"
-          class="icon"
-          onclick="location.href='https://github.com/dadulsawol'">
+    <div class="projectContainer">
+      <div class="project">
+        <img src="./assets/proj1.png" alt="picture">
+        <p>01 < InBetWin : an interactive game we developed when I was 1st year college. >
+          02 < It challenges players to make strategic decisions and their luck while at >
+          03 < the same time trying to achieve a high score. This project allowed me to >
+          04 < explore game development concepts and enhance my programming skills. We >
+          05 < used C programming language for this project. > 
         </p>
       </div>
-      <div class="my_whoishe">
-        <p>01 < Hello there, I am April Joy L. Deang, a 20-year-old student ></p>
-        <p>02 < Currently, I'm pursuing Bachelor of Science in Information System ></p>
-        <p>03 < at the Technological University of the Philippines. ></p>
-        <p>04 < A passionate programmer and software developer. > </p>
-        <p>05 < As a student in this exciting field, ></p>
-        <p>06 < I'm constantly exploring and learning new things. ></p>
-        <p>07 < I believe in the power of technology to transform the world, ></p>
-        <p>08 < and I'm thrilled to be a part of it. ></p>
-        <p>09 < This website is my canvas, where I showcase myself, ></p>
-        <p>10 < and document my educational journey. ></p>
-        <p>12 < If you want to learn more about my background and experience, ></p>
-        <p>13 < feel free to download my CV below. ></p>
-        <p>&nbsp</p>
-        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-          &nbsp&nbsp&nbsp <button
-            class="cv"
-            onclick="window.open('./assets/DEANG_CV.pdf')"
-          >
-            Download
-          </button>
-        <p>15 < I am excited to share my journey with you ! > <img src="./assets/design.gif" alt="cinna"> </p>
+      <div class="project">
+        <img src="./assets/proj2.png" alt="picture"> 
+        <p>01 < As part of our final project for the second semester at TUP, we designed >
+          02 < and implemented a Hotel Management System using C++ programming language. >
+          03 < This aims to efficiently manage reservations, room, and guest services for >
+          04 < a hotel. It was a good opportunity to apply object-oriented programming >
+          05 < principles. >
+       </p>
       </div>
-    </section>
-
-    <section id="experience">
-      <div class="mytitle_experience">
-        <h1> MY EXPERIENCE! <img
-          src="./assets/forintro.gif"
-          alt="My Github"
-          class="icon"
-          onclick="location.href='https://github.com/dadulsawol'"/>
-        </h1>
+      <div class="project">
+        <img src="./assets/proj3.png" alt="picture">
+        <p>01 < In this project we are tasked to develop a learning website specifically >
+           02 < tailored for preschool learners to use. We named the project Learning the >
+           03 < Basics: A Learning Website for Preschool Learners. This project was aimed >
+           04 < to an engaging, simple, and  interactive platform for young childrens to >
+           05 < explore and learn fundamental concepts in a fun and intuitive way. >
+       </p> 
       </div>
+    </div>
 
-      <div class="experience">
-        <p>01 < I'm an aspiring front-end developer and data analyst who loves creating ></p>
-        <p>02 < attractive and easy-to-use websites. I enjoy transforming ></p>
-        <p>03 < code into visually appealing online experiences, whether it is designing ></p>
-        <p>04 < stylishinterfaces or making user interactions better.  ></p>
-        <p>05 <  ></p>
-        <p>06 < I've also honed my skills in working with and ></p>
-        <p>07 < manipulating data through an online course at SPARTA. ></p>
-        <p>08 < During my time there, I became knowledgable about data analysis. ></p>
-        <p>09 < I've completed projects in SPARTA where I delved into data research , ></p>
-        <p>10 < Thanks to SPARTA, I've gained the ability to handle numbers, uncover ></p>
-        <p>11 < patterns, and extract valuable insights from data. ></p>
-        <p>12 < If you want to contact me feel free to send a direct message ></p>
-        <p>13 < on my social media platforms available here on my website ></p>
-      </div>
-    </section>
-
-    <section id="projects">
-      <div class="mytitle_projects">
-        <h1> MY PROJECTS! </h1> 
+    <section id="contacts">
+      
+      <div class="mytitle_contacts">
+        <h1> CONTACTS </h1> 
         <img
           src="./assets/aprilgif.gif"
           alt="My Github"
@@ -163,47 +163,9 @@
           onclick="location.href='https://github.com/dadulsawol'"/>
         </p>
       </div>
-      
-      <div class="project-container">
-        <div class="project">
-          <img src="./assets/proj1.png" alt="picture" class="inbetwin">
-          <p>01 < InBetWin : an interactive game we developed when I was 1st year college. >
-            02 < It challenges players to make strategic decisions and their luck while at >
-            03 < the same time trying to achieve a high score. This project allowed me to >
-            04 < explore game development concepts and enhance my programming skills. We >
-            05 < used C programming language for this project. > 
-          </p>
-        </div>
-  
-        <div class="project">
-          <img src="./assets/proj2.png" alt="picture" class="inbetwin"> 
-          <p>01 < As part of our final project for the second semester at TUP, we designed >
-            02 < and implemented a Hotel Management System using C++ programming language. >
-            03 < This aims to efficiently manage reservations, room, and guest services for >
-            04 < a hotel. It was a good opportunity to apply object-oriented programming >
-            05 < principles. >
-         </p>
-        </div>
-  
-        <div class="project">
-          <img src="./assets/proj3.png" alt="picture" class="inbetwin">
-          <p>01 < In this project we are tasked to develop a learning website specifically >
-             02 < tailored for preschool learners to use. We named the project Learning the >
-             03 < Basics: A Learning Website for Preschool Learners. This project was aimed >
-             04 < to an engaging, simple, and  interactive platform for young childrens to >
-             05 < explore and learn fundamental concepts in a fun and intuitive way. >
-         </p> 
-        </div>
-      </div>
-
-    </section>
-
-    <footer id="contacts">
 
       <div class="cont">
-        <h1>Contacts</h1>
-          <p>apriljoydeang23@gmail.com</p>
-          <img
+        <img
             src="./assets/fb.png"
             alt="My Facebook"
             class="icons"
@@ -221,10 +183,14 @@
             class="icons"
             onclick="window.open('https://twitter.com/dadulsawol_wu')"
           />
-        <p>Copyright ©2023</p>
-      </div>
+    </div>
 
-    </footer>
+      <footer>
+        <div class="footer2">
+          <p>Copyright &#169; 2023. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </section>
 
     <script src="script.js"></script>
   </body>
